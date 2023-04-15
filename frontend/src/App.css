@@ -1,0 +1,38 @@
+#navbar, #navbar>div{
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  background-color: #ffffff;
+}
+h1{
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 3rem;
+}
+form{
+  max-width: 768px;
+  margin: auto;
+  margin-top: 2rem;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: .5rem;
+}
+form input{
+  display: block;
+  width: 100%;
+  padding: 0.8rem;
+  margin: 1rem 0;
+}
+input[type=submit]{
+  background-color: #000;
+  color: #fff;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: .5rem;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+input[type=submit]:hover{
+  background-color: #171717;
+  color: #fff;
+}
